@@ -27,7 +27,7 @@ Este é um projeto pessoal que permite pesquisar informações sobre Pokémon us
 
 ### 3. Iniciar o Servidor
 ```bash
-  node server.js
+  node app.js
 ```
 O servidor rodará em `http://localhost:3000`.
 

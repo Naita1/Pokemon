@@ -1,33 +1,64 @@
-# Pokémon API
+# Pesquisa de Pokémon
 
-Esta aplicação fornece informações detalhadas sobre os Pokémons, como nome, tipos, altura, peso e uma imagem, utilizando a PokeAPI como fonte de dados. Ela consiste em um servidor backend com Node.js e Express que faz requisições à PokeAPI, e um frontend simples em HTML/JavaScript para interação do usuário.
+Este é um projeto pessoal que permite pesquisar informações sobre Pokémon usando a API da PokeAPI. O sistema permite buscar detalhes como nome, tipo, altura, peso e imagem do Pokémon informado.
 
-## Tecnologias Usadas
-
-- **Backend**:
-  - Node.js
-  - Express
-  - Axios (para requisições HTTP)
-
-- **Frontend**:
-  - HTML
-  - JavaScript (com Fetch API)
+## Tecnologias Utilizadas
+- **Node.js** com **Express** para criar o servidor backend
+- **Axios** para realizar requisições HTTP
+- **HTML, CSS e JavaScript** para a interface frontend
 
 ## Funcionalidades
+- Busca de Pokémon por nome
+- Sugestões automáticas ao digitar o nome do Pokémon (a partir de 3 caracteres)
+- Exibição de informações detalhadas do Pokémon
 
-- O usuário pode pesquisar um Pokémon pelo nome, e a aplicação retorna as informações detalhadas, como tipos, altura, peso e imagem.
-- Sugestões automáticas de nomes de Pokémons são fornecidas enquanto o usuário digita.
+## Como Executar o Projeto
 
-## Como Instalar e Usar
+### 1. Clonar o Repositório
+```bash
+  git clone <URL_DO_REPOSITORIO>
+  cd <NOME_DO_PROJETO>
+```
 
-### Requisitos
+### 2. Instalar Dependências
+```bash
+  npm install
+```
 
-- Node.js
-- NPM ou Yarn (gerenciadores de pacotes)
+### 3. Iniciar o Servidor
+```bash
+  node server.js
+```
+O servidor rodará em `http://localhost:3000`.
 
-### Passos para instalação
+### 4. Acessar a Interface
+Abra um navegador e acesse `http://localhost:3000` para pesquisar Pokémon.
 
-1. Clone o repositório:
+## Estrutura do Projeto
+```
+/
+|-- front/
+|   |-- index.html
+|   |-- styles.css
+|   |-- script.js
+|
+|-- server.js
+|-- package.json
+|-- README.md
+```
 
-   ```bash
-   git clone https://github.com/SEU_USUARIO/pokemon-api.git
+## Exemplo de Uso
+1. Digite um nome de Pokémon no campo de busca (exemplo: `Pikachu`).
+2. O sistema exibirá sugestões automáticas.
+3. Clique no botão "Buscar" para obter informações detalhadas do Pokémon.
+
+## API Utilizada
+O projeto utiliza a [PokeAPI](https://pokeapi.co/) para obter os dados dos Pokémon.
+
+## Melhorias Futuras
+- Melhorar o layout e responsividade
+- Exibir estatísticas de batalhas e habilidades especiais
+
+---
+Desenvolvido por Tainá Ribeiro 🚀
+

@@ -8,9 +8,9 @@ Este é um projeto pessoal que permite pesquisar informações sobre Pokémon us
 - **HTML, CSS e JavaScript** para a interface frontend
 
 ## Funcionalidades
-- Busca de Pokémon por nome
-- Sugestões automáticas ao digitar o nome do Pokémon (a partir de 3 caracteres)
-- Exibição de informações detalhadas do Pokémon
+- **Busca de Pokémon por nome:** Permite ao usuário pesquisar informações sobre um Pokémon pelo seu nome.
+- **Sugestões automáticas*:*Conforme o usuário digita o nome do Pokémon (a partir de 3 caracteres), o sistema oferece sugestões de nomes.
+- **Exibição de informações detalhadas:** Após a pesquisa, o sistema exibe informações como nome, tipo, altura, peso e imagem do Pokémon.
 
 ## Como Executar o Projeto
 
@@ -23,6 +23,8 @@ Este é um projeto pessoal que permite pesquisar informações sobre Pokémon us
 ### 2. Instalar Dependências
 ```bash
   npm install
+  npm install axios
+  npm install express
 ```
 
 ### 3. Iniciar o Servidor
@@ -34,30 +36,17 @@ O servidor rodará em `http://localhost:3000`.
 ### 4. Acessar a Interface
 Abra um navegador e acesse `http://localhost:3000` para pesquisar Pokémon.
 
-## Estrutura do Projeto
-```
-/
-|-- front/
-|   |-- index.html
-|   |-- styles.css
-|   |-- script.js
-|
-|-- server.js
-|-- package.json
-|-- README.md
-```
-
 ## Exemplo de Uso
-1. Digite um nome de Pokémon no campo de busca (exemplo: `Pikachu`).
-2. O sistema exibirá sugestões automáticas.
-3. Clique no botão "Buscar" para obter informações detalhadas do Pokémon.
+1. Ao acessar a página, digite o nome de um Pokémon no campo de busca (exemplo: Pikachu).
+2. O sistema exibirá sugestões automáticas conforme você digita.
+3. Após selecionar ou completar o nome do Pokémon, clique no botão "Buscar" para visualizar as informações detalhadas.
 
 ## API Utilizada
-O projeto utiliza a [PokeAPI](https://pokeapi.co/) para obter os dados dos Pokémon.
+O projeto utiliza a [PokeAPI](https://pokeapi.co/) uma API pública que fornece dados sobre os Pokémon, incluindo suas características, tipos, imagens, entre outras informações.
 
 ## Melhorias Futuras
-- Melhorar o layout e responsividade
-- Exibir estatísticas de batalhas e habilidades especiais
+- **Melhorarias no layout e responsividade:** O design da interface pode ser aprimorado para torná-la mais amigável e responsiva em dispositivos móveis
+- **Exibição de estatísticas:** Futuramente, a aplicação pode exibir estatísticas detalhadas, como valores de batalha e habilidades especiais dos Pokémon.
 
 ---
 Desenvolvido por Tainá Ribeiro 🚀

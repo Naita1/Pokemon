@@ -9,7 +9,7 @@ Este é um projeto pessoal que permite pesquisar informações sobre Pokémon us
 
 ## Funcionalidades
 - **Busca de Pokémon por nome:** Permite ao usuário pesquisar informações sobre um Pokémon pelo seu nome.
-- **Sugestões automáticas*:*Conforme o usuário digita o nome do Pokémon (a partir de 3 caracteres), o sistema oferece sugestões de nomes.
+- **Sugestões automáticas:** Conforme o usuário digita o nome do Pokémon (a partir de 3 caracteres), o sistema oferece sugestões de nomes.
 - **Exibição de informações detalhadas:** Após a pesquisa, o sistema exibe informações como nome, tipo, altura, peso e imagem do Pokémon.
 
 ## Como Executar o Projeto
